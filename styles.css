@@ -1,0 +1,4 @@
+.col-md-4 img {
+    height: 300px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Recorta y ajusta la imagen al contenedor */
+}
