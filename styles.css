@@ -4,25 +4,6 @@
   }
 
 
-.col-md-4 img {
-    height: 300px; /* Ajusta la altura de las imágenes */
-    object-fit: cover; /* Recorta y ajusta la imagen al contenedor */
-}
-
-#grid-view:checked ~ .container .image-grid .col-md-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-
-#row-view:checked ~ .container .image-grid .col-md-4 {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-#row-view:checked ~ .container .image-grid img {
-  max-height: 200px;
-  object-fit: cover;
-}
  /* esto para ajustar las imagenes con el grid
 .img-square {
   width: 100%;
